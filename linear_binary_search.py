@@ -50,7 +50,7 @@ def test_location(cards, query,mid):
 
 
 test = {'input':{'cards':[13,11,10,7,4,3,1,0],'query':7},'output':3}  # test case stored as dictionary
-print(locate_card(test['input']['cards'], test['input']['query']) == test['output'])
+#print(locate_card(test['input']['cards'], test['input']['query']) == test['output'])
 
 tests = []
 tests.append(test)
@@ -64,7 +64,7 @@ tests.append({'input':{'cards':[8,6,6,6,6,6,3,2,2,2,2,0,0,0],'query':3},'output'
 tests.append({'input':{'cards':[8,6,6,6,6,6,3,2,2,2,2,0,0,0],'query':6},'output': 1})
 
 result = locate_card(test['input']['cards'], test['input']['query'])
-print(result)
+#print(result)
 
 from jovian.pythondsa import evaluate_test_case
 from jovian.pythondsa import evaluate_test_cases
@@ -75,10 +75,10 @@ from jovian.pythondsa import evaluate_test_cases
 cards6 = tests[6]['input']['cards']
 query6 = tests[6]['input']['query']
 
-print(locate_card(cards6,query6))
+#print(locate_card(cards6,query6))
 #evaluate_test_cases(locate_card,tests)
 
 #evaluate_test_cases(locate_cards2,tests)
-evaluate_test_case(locate_cards2,tests[8])
+evaluate_test_cases(locate_cards2,tests)
 
 
