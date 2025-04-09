@@ -58,3 +58,4 @@ print("\n")
 print(traverse_in_order(tree2))
 print(tree_height(tree2))
 print(node_count(tree2))
+
