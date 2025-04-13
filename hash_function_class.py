@@ -1,11 +1,5 @@
 max_hash_table_size = 4096
 
-
-    
-
-
-
-
 data_list = [None]*4096
 
 for item in data_list:
