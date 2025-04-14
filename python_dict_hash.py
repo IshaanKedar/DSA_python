@@ -13,4 +13,3 @@ for name in phone_numbers:
     print('name: ',name,', phone_no: ',phone_numbers[name])
 
 #hash table usins list or array to store the key-value pairs
-
