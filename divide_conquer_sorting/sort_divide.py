@@ -18,8 +18,8 @@ test5 = {'input': {'nums': [5,5,5,5,5,5]},'output':[5,5,5,5,5,5]}
 
 import random
 
-in_list = list(range(10000))
-out_list = list(range(10000))
+in_list = list(range(100000))
+out_list = list(range(100000))
 
 random.shuffle(in_list)
 
