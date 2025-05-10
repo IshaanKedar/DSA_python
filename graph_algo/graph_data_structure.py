@@ -19,5 +19,4 @@ class Graph:
 
 graph1 = Graph(num_nodes,edges)
 
-print(graph1)
 
